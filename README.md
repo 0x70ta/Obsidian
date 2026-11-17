@@ -185,6 +185,24 @@ validated with this project yet. Do not describe them as supported or
 tested until the full unlock, mount, file-write, eject, lock, and
 read-back workflow has been completed on those systems.
 
+## CLI banner
+
+The Windows desktop CLI displays the following banner at startup:
+
+``` text
+╭─────────────────────────────────────────────────────────╮
+│                                                         │
+│     ____  ___  ___________  _______   _  __             │
+│    / __ \/ _ )/ __/  _/ _ \/  _/ _ | / |/ /             │
+│   / /_/ / _  |\ \_/ // // // // __ |/    /              │
+│   \____/____/___/___/____/___/_/ |_/_/|_/               │
+│                                                         │
+│                                                         │
+│   Created by  Mahmoud Ibrahiem   •  github.com/0x70ta   │
+│                                                         │
+╰─────────────────────────────────────────────────────────╯
+```
+
 ## Desktop CLI
 
 The Windows CLI uses Python and these packages:
@@ -309,3 +327,4 @@ output for each test.
 **Repository/author attribution used in CLI banner:** `0x70ta`\
 **Document status:** Project notes based on the current prototype source
 and observed session results.
+
